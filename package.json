@@ -2,11 +2,14 @@
   "name": "trans",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/gloriaJun/trans.git",
+  "repository": "https://github.com/gloriaJun/vanila-webpack-template.git",
   "author": "gloriaJun <pureainu@gmail.com>",
   "license": "MIT",
   "keywords": [
-    "translate"
+    "vanila",
+    "javascript",
+    "template",
+    "webpack"
   ],
   "scripts": {
     "start": "yarn run dev",
