@@ -2,15 +2,8 @@
 
 ## What is included?
 
-- typescript
-- ci/cd
-   - webpack
-   - grmc
-- styleguide
-   - eslint-config-gloria-base
-   - commitlint
-   - lint-staged
-   - husky
+- yarn3 (= yarn berry)
+- express v4
 
 ## Installation
 
