@@ -2,18 +2,36 @@
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
+    /* Projects */
+    // "incremental": true, /* 증분 컴파일 설정 여부 */
+
     /* Language and Environment */
-    "target": "es6" /* 사용할 특정 ECMAScript 버전 설정: 'ES3' (기본), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', 혹은 'ESNEXT'. */,
+    "target": "es5" /* 사용할 특정 ECMAScript 버전 설정: 'ES3' (기본), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', 혹은 'ESNEXT'. */,
+    // "lib": [
+    //   "dom",
+    //   "dom.iterable",
+    //   "esnext"
+    // ] /* 컴파일에 포함될 라이브러리 파일 목록 */,
     "jsx": "react" /* JSX 코드 생성 설정: 'preserve', 'react-native', 혹은 'react'. */,
 
     /* Modules */
     "module": "esnext" /* 모듈을 위한 코드 생성 설정: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */,
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */,
     "moduleResolution": "node" /* 모듈 해석 방법 설정: 'node' (Node.js) 혹은 'classic' (TypeScript pre-1.6). */,
     "baseUrl": "./" /* non-absolute한 모듈 이름을 처리할 기준 디렉토리 */,
+    // "paths": {}, /* 'baseUrl'를 기준으로 불러올 모듈의 위치를 재지정하는 엔트리 시리즈 */
+    // "rootDir": "./", /* 입력 파일의 루트 디렉토리(rootDir) 설정으로 --outDir로 결과 디렉토리 구조를 조작할 때 사용됩니다. */
+    // "typeRoots": [], /* 타입 정의를 포함할 폴더 목록, 설정 안 할 시 기본적으로 ./node_modules/@types로 설정 */
+    "types": [
+      // "node",
+    ] /* 컴파일중 포함될 타입 정의 파일 목록 */,
     "resolveJsonModule": true /* Enable importing .json files */,
 
     /* JavaScript Support */
     "allowJs": true /* 자바스크립트 파일 컴파일 허용 여부 */,
+    // "checkJs": true, /* .js 파일의 오류 검사 여부 */
 
     /* Emit */
     "sourceMap": true /* 소스 위치 대신 디버거가 알아야 할 TypeScript 파일이 위치할 곳 */,
@@ -30,6 +48,5 @@
 
     /* Completeness */
     "skipLibCheck": true /* 정의 파일의 타입 확인을 건너 뛸 지 여부 */
-  },
-  "include": ["src"]
+  }
 }

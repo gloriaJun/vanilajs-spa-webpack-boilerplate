@@ -1,19 +1,28 @@
 # vanila-webpack-template
 
-## What is included?
+## Tech Spec
 
-- typescript
-- ci/cd
-   - webpack
-   - grmc
-- styleguide
-   - eslint-config-gloria-base
-   - commitlint
-   - lint-staged
-   - husky
+| name       | version      |
+| ---------- | ------------ |
+| VanillaJS  |              |
+| typescript | v4           |
+| yarn       | v3 (= berry) |
+| webpack    | v5           |
 
 ## Installation
 
 ```bash
 yarn install
+```
+
+## Run
+
+```bash
+yarn dev
+```
+
+## Build
+
+```bash
+yarn build
 ```
