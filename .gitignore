@@ -14,10 +14,10 @@
 !.yarn/sdks
 !.yarn/versions
 # if you want to unused Zero-Install
-#.pnp.*
-#yarn.lock
+.pnp.*
+yarn.lock
 # if you want to used Zero-Install
-!.yarn/cache
+#!.yarn/cache
 
 ### output ###
 /dist

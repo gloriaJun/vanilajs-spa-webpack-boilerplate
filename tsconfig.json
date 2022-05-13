@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Language and Environment */
+    "target": "es6" /* 사용할 특정 ECMAScript 버전 설정: 'ES3' (기본), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', 혹은 'ESNEXT'. */,
+    "jsx": "react" /* JSX 코드 생성 설정: 'preserve', 'react-native', 혹은 'react'. */,
+
+    /* Modules */
+    "module": "esnext" /* 모듈을 위한 코드 생성 설정: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */,
+    "moduleResolution": "node" /* 모듈 해석 방법 설정: 'node' (Node.js) 혹은 'classic' (TypeScript pre-1.6). */,
+    "baseUrl": "./" /* non-absolute한 모듈 이름을 처리할 기준 디렉토리 */,
+    "resolveJsonModule": true /* Enable importing .json files */,
+
+    /* JavaScript Support */
+    "allowJs": true /* 자바스크립트 파일 컴파일 허용 여부 */,
+
+    /* Emit */
+    "sourceMap": true /* 소스 위치 대신 디버거가 알아야 할 TypeScript 파일이 위치할 곳 */,
+    // "outDir": "./dist" /* 해당 디렉토리로 결과 구조를 보냅니다. */,
+    "noEmit": false /* 결과 파일 내보낼지 여부 */,
+    "downlevelIteration": true /* 타겟이 'ES5', 'ES3'일 때에도 'for-of', spread 그리고 destructuring 문법 모두 지원 */,
+
+    /* Interop Constraints */
+    "esModuleInterop": true /* 모든 imports에 대한 namespace 생성을 통해 CommonJS와 ES Modules 간의 상호 운용성이 생기게할 지 여부, 'allowSyntheticDefaultImports'를 암시적으로 승인합니다. */,
+    "forceConsistentCasingInFileNames": true /* 같은 파일에 대한 일관되지 않은 참조를 허용하지 않을 지 여부 */,
+
+    /* Type Checking */
+    "strict": true /* 모든 엄격한 타입-체킹 옵션 활성화 여부 */,
+
+    /* Completeness */
+    "skipLibCheck": true /* 정의 파일의 타입 확인을 건너 뛸 지 여부 */
+  },
+  "include": ["src"]
+}
