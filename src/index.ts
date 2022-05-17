@@ -1,3 +1,7 @@
-import "./styles/index.css";
+import './styles/index.css';
 
-document.querySelector("#app").innerHTML = "<h1>Welcome!! Hello! World!!!</h1>";
+const app = document.querySelector('#app');
+
+if (app) {
+  app.innerHTML = '<h1>Welcome!! Hello! World!!!</h1>';
+}
